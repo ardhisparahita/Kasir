@@ -7,7 +7,7 @@
     "tsc": "rm -rf build/ && tsc",
     "ts": "rm -rf build/ && tsc -w",
     "dev": "nodemon ./build/server.js",
-    "start": "node server.js"
+    "start": "node ./build/server.js"
   },
   "devDependencies": {
     "@types/compression": "^1.7.2",
